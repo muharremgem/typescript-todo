@@ -20,7 +20,7 @@ const InputForm: React.FC<IInputForm> = ({ addTodo }) => {
           className="input-task"
           placeholder="Enter the todo..."
           type="text"
-          maxLength={45}
+          maxLength={40}
           value={task}
           onChange={(e) => setTask(e.target.value)}
         />
