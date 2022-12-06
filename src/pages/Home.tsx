@@ -47,7 +47,7 @@ const Home = () => {
   return (
     <div className="main">
       <InputForm addTodo={addTodo} />
-      <TodoList todos={todos} />
+      <TodoList todos={todos} toggleTodo={toggleTodo} />
     </div>
   );
 };
